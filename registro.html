@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTHON 2022 - Registro</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col">
+          <img src="/img/uthon-logo.png" class="mx-auto d-block" width="350" />
+        </div>
+      </div>
+
+      <div class="row mt-5 mb-5">
+        <div class="card pb-3 pt-3 pl-3 pr-3">
+          <div class="card-body">
+            <h2 class="text-centered">
+              <img src="/img/uthon-texto.png" width="300" />
+            </h2>
+            <p>
+              ¡A meses para que corredores de Centro América y el Mundo entero
+              se pongan a prueba en el punto más alto de Honduras! 6 circuitos
+              donde Atletas Nacionales e Internacionales se enfrentarán con el
+              Señor de las Montañas, “Cacique Lempira” (Celaque 2,849 msnm)
+            </p>
+
+            <div class="row">
+              <div class="col mb-3 mt-3">
+                <h2>Registro</h2>
+              </div>
+            </div>
+
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre completo:</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="id-doc" class="form-label"
+                  >Número de identidad o pasaporte:</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="id-doc"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="nacionalidad" class="form-label"
+                  >Nacionalidad:</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="nacionalidad"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="dist" class="form-label"
+                  >Seleccione distancia:</label
+                >
+                <select
+                  class="form-select form-select-lg mb-3"
+                  id="dist"
+                  required
+                >
+                  <option selected>Seleccione distancia</option>
+                  <option value="5">5K</option>
+                  <option value="10">10K</option>
+                  <option value="15">15K</option>
+                  <option value="25">25K</option>
+                  <option value="35">35K</option>
+                  <option value="65">65K</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="nacimiento" class="form-label"
+                  >Fecha de nacimiento:</label
+                >
+                <input
+                  type="date"
+                  class="form-control form-control-lg"
+                  id="nacimiento"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="cel" class="form-label"
+                  >Número de teléfono celular:</label
+                >
+                <input
+                  type="tel"
+                  class="form-control form-control-lg"
+                  id="cel"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label"
+                  >Correo electrónico:</label
+                >
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="talla" class="form-label">Talla de camiseta:</label>
+                <select
+                  class="form-select form-select-lg mb-3"
+                  id="talla"
+                  required
+                >
+                  <option selected>Seleccione talla</option>
+                  <option value="XS">XS</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                  <option value="XXL">XXL</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="club" class="form-label"
+                  >Nombre de club o equipo al que pertenece (opcional):</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="club"
+                />
+              </div>
+
+              <div class="mb-3">
+                <h3>Detalle de distancias y costos:</h3>
+                <ul>
+                  <li>
+                    <strong>5k, $10 / L250</strong> (Pavimento, carrera en el
+                    casco histórico de Gracias) cupos ilimitados
+                  </li>
+                  <li>
+                    <strong>10k, $10 / L250</strong> (Pavimento, carrera en el
+                    casco histórico de Gracias) cupos ilimitados
+                  </li>
+                  <li>
+                    <strong>15k, $15 / L400</strong> ( carrera hasta la
+                    comunidad de Villa verde) cupos ilimitados
+                  </li>
+                  <li>
+                    <strong>25k, $30 / L700</strong> (Montaña) cupos limitados
+                  </li>
+                  <li>
+                    <strong>35k, $60 / L1,500</strong> (Montaña) cupos limitados
+                  </li>
+                  <li>
+                    <strong>65k, $90 / L2,000</strong> (Montaña) cupos limitados
+                  </li>
+                </ul>
+
+                <h3>Detalle de formas de pago:</h3>
+                <p>Pagos en <strong>BAC Honduras:</strong></p>
+                <ul>
+                  <li>Cuenta número: <strong> 742593541 (LEMPIRAS)</strong></li>
+                  <li>Cuenta número: <strong>747868121 (DÓLARES)</strong></li>
+
+                  <small>A nombre de Katerin Pamela Vásquez</small>
+                </ul>
+
+                <p>Pagos internacionales:</p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://paypal.me/FEHDMETESORERIA?country.x=HN&locale.x=en_US"
+                      target="_blank"
+                    >
+                      <!-- PayPal Logo -->
+
+                      <img
+                        src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg"
+                        border="0"
+                        alt="PayPal Acceptance Mark"
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <label for="comprobante-pago" class="form-label"
+                  >Adjuntar comprobante de pago:</label
+                >
+                <input
+                  class="form-control form-control-lg"
+                  id="comprobante-pago"
+                  type="file"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg">
+                Completar Registro
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="corner-logo">
+        <a href="http://fehdme.org">
+          <img src="/img/corner.png" width="300px"
+        /></a>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
